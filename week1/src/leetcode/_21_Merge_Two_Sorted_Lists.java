@@ -6,13 +6,7 @@ import java.util.List;
     https://leetcode.com/problems/merge-two-sorted-lists/
  */
 public class _21_Merge_Two_Sorted_Lists {
-      public class ListNode {
-          int val;
-          ListNode next;
-          ListNode() {}
-          ListNode(int val) { this.val = val; }
-          ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-      }
+
       /*
             用兩個指針 一個指向 list1 一個指向list2 分別遍例比大小 直到其中一個指到最後一個(next =null)
             直接將剩餘的指向另一個node 即可
